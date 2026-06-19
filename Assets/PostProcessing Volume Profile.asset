@@ -18,7 +18,7 @@ MonoBehaviour:
     m_Value: -24
   tint:
     m_OverrideState: 1
-    m_Value: -49
+    m_Value: -56
 --- !u!114 &-2269036590334991902
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -37,7 +37,7 @@ MonoBehaviour:
     m_Value: 0.78
   contrast:
     m_OverrideState: 1
-    m_Value: 6
+    m_Value: 45
   colorFilter:
     m_OverrideState: 1
     m_Value: {r: 0.6094339, g: 0.74198955, b: 1, a: 1}
@@ -45,8 +45,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   saturation:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: -20
 --- !u!114 &-2232416537560242176
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -61,8 +61,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights
   active: 1
   shadows:
-    m_OverrideState: 0
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_OverrideState: 1
+    m_Value: {x: 0.92277974, y: 0.9441915, z: 1, w: 0}
   midtones:
     m_OverrideState: 0
     m_Value: {x: 1, y: 1, z: 1, w: 0}
@@ -99,10 +99,10 @@ MonoBehaviour:
     m_Value: 1
   threshold:
     m_OverrideState: 1
-    m_Value: 15.99
+    m_Value: 18.6
   intensity:
     m_OverrideState: 1
-    m_Value: 737.8
+    m_Value: 745.4
   scatter:
     m_OverrideState: 0
     m_Value: 0.7
@@ -149,10 +149,10 @@ MonoBehaviour:
     m_Value: 1
   gaussianStart:
     m_OverrideState: 1
-    m_Value: 26.9
+    m_Value: 21.9
   gaussianEnd:
     m_OverrideState: 1
-    m_Value: 29.57
+    m_Value: 30.4
   gaussianMaxRadius:
     m_OverrideState: 0
     m_Value: 1
@@ -196,6 +196,32 @@ MonoBehaviour:
   - {fileID: 7094028437018022683}
   - {fileID: -2232416537560242176}
   - {fileID: -7321076081151569226}
+  - {fileID: 1482666596481285178}
+--- !u!114 &1482666596481285178
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccf1aba9553839d41ae37dd52e9ebcce, type: 3}
+  m_Name: MotionBlur
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.MotionBlur
+  active: 1
+  mode:
+    m_OverrideState: 1
+    m_Value: 0
+  quality:
+    m_OverrideState: 1
+    m_Value: 1
+  intensity:
+    m_OverrideState: 0
+    m_Value: 0
+  clamp:
+    m_OverrideState: 0
+    m_Value: 0.05
 --- !u!114 &7094028437018022683
 MonoBehaviour:
   m_ObjectHideFlags: 3
