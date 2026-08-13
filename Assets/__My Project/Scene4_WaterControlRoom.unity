@@ -6722,7 +6722,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dc0aa9390e98e94b92ddd9411e99031, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CountdownEvent
-  startingTime: 9
+  startingTime: 11
   clock: 0
   looping: 0
   resetOnEnable: 1
@@ -6762,7 +6762,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: FinalScene2
+          m_StringArgument: FictionScene
           m_BoolArgument: 0
         m_CallState: 2
   onReset:
@@ -8347,6 +8347,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bbob_FinalPosedModel
       objectReference: {fileID: 0}
+    - target: {fileID: 5419411130791316784, guid: a2da5c94c44f0aa41a3882facc9a66b6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 540da4eb4e9cd0a47bd85d76d3e54e35, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
