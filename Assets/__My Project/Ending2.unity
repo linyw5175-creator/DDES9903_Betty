@@ -119,6 +119,75 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &36712783
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: bb1aedbee6ecbbd4889ab3bcace7841a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.3505745
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb1aedbee6ecbbd4889ab3bcace7841a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.3505745
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb1aedbee6ecbbd4889ab3bcace7841a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.3505745
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb1aedbee6ecbbd4889ab3bcace7841a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.83
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb1aedbee6ecbbd4889ab3bcace7841a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.49
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb1aedbee6ecbbd4889ab3bcace7841a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -17.39
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb1aedbee6ecbbd4889ab3bcace7841a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.88543046
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb1aedbee6ecbbd4889ab3bcace7841a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb1aedbee6ecbbd4889ab3bcace7841a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.464772
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb1aedbee6ecbbd4889ab3bcace7841a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb1aedbee6ecbbd4889ab3bcace7841a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb1aedbee6ecbbd4889ab3bcace7841a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 55.391
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb1aedbee6ecbbd4889ab3bcace7841a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bb1aedbee6ecbbd4889ab3bcace7841a, type: 3}
+      propertyPath: m_Name
+      value: Bunk Bed
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bb1aedbee6ecbbd4889ab3bcace7841a, type: 3}
 --- !u!1 &154294902
 GameObject:
   m_ObjectHideFlags: 0
@@ -5712,6 +5781,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 761987866}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onReset:
     m_PersistentCalls:
       m_Calls: []
@@ -6072,6 +6153,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 93.225, z: 0}
+--- !u!1 &761987866 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bb1aedbee6ecbbd4889ab3bcace7841a, type: 3}
+  m_PrefabInstance: {fileID: 36712783}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &846961577
 GameObject:
   m_ObjectHideFlags: 0
@@ -7098,6 +7184,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6722085885383957590, guid: 0d020145f0375de4c8637ab913aca73f, type: 3}
+      propertyPath: m_Range
+      value: 773.9
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d020145f0375de4c8637ab913aca73f, type: 3}
       propertyPath: m_Name
       value: tolstolobik (4)
@@ -7708,3 +7798,4 @@ SceneRoots:
   - {fileID: 853792792}
   - {fileID: 419756503}
   - {fileID: 895685449}
+  - {fileID: 36712783}
